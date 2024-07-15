@@ -1,12 +1,46 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react';
 import './Home.css';
 import headimage1 from '../../assets/edu1.jpg'
 import headimage2 from '../../assets/edu3.jpg'
 import headimage3 from '../../assets/edu2.jpg'
 
 export const Home = () => {
+    const [dateTime, setDateTime] = useState(new Date());
+
+    useEffect(() => {
+      const timer = setInterval(() => {
+        setDateTime(new Date());
+      }, 1000);
+  
+      
+      return () => clearInterval(timer);
+    }, []);
+    const getGreetingMessage = () => {
+
+        const hours = dateTime.getHours();
+        if (hours < 12) {
+          return "Good Morning...!";
+        } else if (hours < 18) {
+          return "Good Afternoon...!";
+        } else {
+          return "Good Evening...!";
+        }
+      };
+  
   return (
        <>
+      
+      <div className='home-time'>
+        
+        <h2 style={{ textAlign: 'center', }}> Hello <br /> {getGreetingMessage()}</h2>
+      <div style={{ textAlign: 'center', }}>
+      <h2>Today</h2>
+      <h2>{dateTime.toLocaleDateString()}</h2>
+      <h2>{dateTime.toLocaleTimeString()}</h2>
+        </div>
+    </div>
+   
+
     <div className='home-title'>
 
         <h1>WELCOME TO OUR EduPath  WEBSITE</h1>

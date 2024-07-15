@@ -48,19 +48,19 @@ export const Contact = () => {
 
         <div>
           <label className='form-inner-label'>Name</label>
-          <input type="text" className='form-outer-input' value={name} onChange={(e) => setName(e.target.value)} />
+          <input type="text" className='form-outer-input'  placeholder='Enter Your Name' value={name} onChange={(e) => setName(e.target.value)} />
           {errors.name && <p className='form-para'>{errors.name}</p>}
         </div>
 
         <div>
           <label className='form-inner-label'>Email</label>
-          <input type="email" className='form-outer-input' value={email} onChange={(e) => setEmail(e.target.value)} />
+          <input type="email" className='form-outer-input' placeholder='Enter Your Email' value={email} onChange={(e) => setEmail(e.target.value)} />
           {errors.email && <p className='form-para'>{errors.email}</p>}
         </div>
 
         <div>
           <label className='form-inner-masse'>Message</label>
-          <textarea value={message} onChange={(e) => setMessage(e.target.value)} />
+          <textarea  placeholder='Type Your Message' value={message} onChange={(e) => setMessage(e.target.value)} />
           {errors.message && <p className='form-para'>{errors.message}</p>}
         </div>
 

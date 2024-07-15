@@ -46,3 +46,8 @@
     text-align:justify;
     margin: 0 30px;
 }
+.home-time{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
