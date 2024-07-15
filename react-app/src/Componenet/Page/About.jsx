@@ -74,13 +74,14 @@ export const About = () => {
 
       </div>
       <div className='value-inner'>
-        <h1>Value</h1>
-        <p>EduPath was founded in 2020 by a group of passionate 
-             educators and technologists who believed in the power of 
-             education to transform lives. With a mission to make 
-             high-quality education accessible to everyone, we 
-             embarked on a journey to create an online learning 
-             environment that is engaging, inclusive, and effective.
+        <h1>Values</h1>
+        <p>Welcome to EduPath, your gateway to a world of knowledge and opportunities. 
+           At EduPath, we believe in empowering learners of all ages with the tools and 
+           resources they need to succeed. Whether you're looking to advance your career, 
+           develop new skills, or explore new interests, our comprehensive courses and 
+           expert instructors are here to guide you every step of the way. Join our 
+           community today and embark on a journey of lifelong learning and personal 
+           growth with EduPath.
              </p>
       </div>
       
