@@ -7,9 +7,93 @@
 
     display: flex;
     flex-direction: column;
+    gap: 20px;
+    border: 1px solid red;
+   
 }
-.about-part h1{
+.about-inner h1{
     font-size: 50px;
     text-align: center;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    background-size: 200%;
+}
+.about-histroy h1{
+
+    font-size: 50px;
+    margin-left: 40px;
     margin-top: 40px;
+    
+}
+.about-histroy-inner{
+
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 40px;
+    border: 1px solid red;
+}
+.about-histroy-inner img{
+    width: 400px;
+    height: 300px;
+    margin-left: 20px;
+}
+.about-histroy-inner p{
+    flex: 1;
+    font-size: 40px;
+    text-align: justify;
+}
+.about-team{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px;
+    border: 1px solid red;
+   
+    
+}
+.about-team img{
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+}
+.about-team-inner{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    
+}
+.about-team-inner img{
+
+    border-radius: 100%;
+    margin-left: 100px;
+}
+.team-inner{
+
+    font-size: 30px;
+    margin-left: 40px;
+    margin-top: 120px;
+}
+.about-team-inner p{
+    font-size: 20px;
+    text-align: center;
+}
+.value-inner{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid red;
+    
+}
+.value-inner h1{
+    font-size: 50px;
+    margin-left: 40px;
+    margin-top: 100px;
+}
+.value-inner p{
+
+    font-size: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: justify;
+    margin-bottom: 100px;
+
 }
