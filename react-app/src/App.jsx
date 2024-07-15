@@ -7,10 +7,11 @@ import { Contact } from './Componenet/Page/Contact'
 import { Route, Routes } from 'react-router-dom'
 
 
+
 function App() {
   
-
   return (
+
     <>
    <NavBar/>
    <Routes>
@@ -18,8 +19,9 @@ function App() {
       <Route path="/home" element={<Home/>}/>
       <Route path="/about" element={<About/>}/>
       <Route path="/contact" element={<Contact/>}/>
+
    </Routes>
-   
+
     </>
   )
 }
