@@ -38,38 +38,38 @@ export const About = () => {
         <div className='about-team'>
        <div className='about-team-inner'>
        <img src={member_1} alt="" />
-       <p>M.A.Ramesh Peshala</p>
-        <p>Founder & CEO</p>
+       <p>James William</p>
+        <p>Professor</p>
        </div>
 
        <div className='about-team-inner'>
        <img src={member_2} alt="" />
-       <p>M.A.Ramesh Peshala</p>
-       <p>Founder & CEO</p>
+       <p>Amelia Margaret</p>
+       <p>Senior Professor</p>
        </div>
 
        <div className='about-team-inner'>
        <img src={member_3} alt="" />
-       <p>M.A.Ramesh Peshala</p>
-       <p>Founder & CEO</p>
+       <p>Damian Joseph</p>
+       <p>Lecturer</p>
        </div>
 
        <div className='about-team-inner'>
        <img src={member_4} alt="" />
-       <p>M.A.Ramesh Peshala</p>
-       <p>Founder & CEO</p>
+       <p>Emma Mary</p>
+       <p>Senior Lecturer</p>
        </div>
 
        <div className='about-team-inner'>
        <img src={member_5} alt="" />
-       <p>M.A.Ramesh Peshala</p>
-       <p>Founder & CEO</p>
+       <p>Michael Richard</p>
+       <p>Assistant Lecturer</p>
        </div>
 
        <div className='about-team-inner'>
        <img src={member_6} alt="" />
-       <p>M.A.Ramesh Peshala</p>
-       <p>Founder & CEO</p>
+       <p>Harry Callum</p>
+       <p>senior Professor</p>
        </div>
 
       </div>

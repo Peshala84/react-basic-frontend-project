@@ -8,7 +8,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    border: 1px solid red;
+    
    
 }
 .about-inner h1{
@@ -30,7 +30,7 @@
     flex-direction: row;
     gap: 20px;
     margin-top: 40px;
-    border: 1px solid red;
+   
 }
 .about-histroy-inner img{
     width: 400px;
@@ -46,7 +46,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 300px 300px;
-    border: 1px solid red;
+   
    
     
 }
@@ -58,7 +58,7 @@
 .about-team-inner{
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
+ 
     
 }
 .about-team-inner img{
@@ -75,12 +75,13 @@
 .about-team-inner p{
     font-size: 20px;
     text-align: center;
+    
 }
 .value-inner{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    border: 1px solid red;
+   
     
 }
 .value-inner h1{
