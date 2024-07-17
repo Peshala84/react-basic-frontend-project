@@ -1,0 +1,25 @@
+.value-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+ 
+  .value-content p {
+    flex: 1;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  
+  .value-content {
+    text-align: center;
+  }
+  
+  .value-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #434547;
+  }

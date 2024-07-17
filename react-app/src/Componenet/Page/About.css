@@ -1,12 +1,6 @@
-  .about-part {
-    font-family: 'Arial', sans-serif;
-    color: #434547;
-    padding: 40px 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
   .about-inner {
+    display: flex;
+    flex-direction: column;
     text-align: center;
     margin-bottom: 40px;
     animation: fadeIn 1s ease-in-out;
@@ -14,98 +8,52 @@
   
   .about-inner h1 {
     font-size: 36px;
-    color: #434547;
+    color: #0b0b0b;
     margin: 0;
-    border-bottom: 2px solid #0a18e5; 
     display: inline-block;
     padding-bottom: 10px;
   }
-  
-  .section {
-    margin-bottom: 60px;
-    padding: 20px;
-    background-color: #c9c2c2;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    min-height: 400px;
-    animation: fadeInUp 1s ease-in-out;
+  .about-inner p{
+
+    font-size: 30px;
+    margin: 0 20px;
   }
-  
-  .section h1 {
-    font-size: 28px;
-    color: var(--primary-color);
-    margin-bottom: 20px;
-    border-bottom: 2px solid #0a18e5; 
-    display: inline-block;
-    padding-bottom: 10px;
-  }
-  
-  .history-content, .team-content, .value-content {
+  .about-link{
+
     display: flex;
-    align-items: center;
-    gap: 20px;
-    flex-wrap: wrap;
-  }
-  
-  .history-content img {
-    max-width: 200px;
-    border-radius: 8px;
-    border: 3px solid #1f5a85; 
-    animation: zoomIn 1s ease-in-out;
-  }
-  
-  .history-content p, .value-content p {
-    flex: 1;
-    font-size: 18px;
-    line-height: 1.6;
-  }
-  
-  .team-content {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
+    flex-direction: row;
     justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-bottom: 20px;
   }
-  
-  .team-member {
-    text-align: center;
-    background-color: #8d8989;
-    padding: 20px;
+  .about-link-inner{
+
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    border: 3px solid aqua;
+    padding: 10px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s, box-shadow 0.3s;
-    animation: fadeIn 1s ease-in-out;
+    transition: 0.5s;
+    
+  }
+  .about-link-inner:hover{
+    background-color: rgb(168, 228, 228);
+    color: rgb(0, 0, 0);
+  }
+  .video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
   }
   
-  .team-member:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    animation: bounce 4s ease-in-out;
-  }
-  
-  .team-member img {
-    max-width: 150px;
-    border-radius: 50%;
-    margin-bottom: 10px;
-    border: 5px solid #1f5a85; 
-  }
-  
-  .team-member p {
-    margin: 5px 0;
-    font-size: 16px;
-    color:#434547;
-  }
-  
-  .value-content {
-    text-align: center;
-  }
-  
-  .value-content p {
-    font-size: 18px;
-    line-height: 1.6;
+  .about-video {
+    width: 35%;
     max-width: 800px;
-    margin: 0 auto;
-    color: #434547;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 20px rgba(0, 0, 0, 0.1);
   }
   @keyframes fadeIn {
     from {
@@ -113,38 +61,5 @@
     }
     to {
       opacity: 1;
-    }
-  }
-  
-  @keyframes fadeInUp {
-    from {
-      opacity: 0;
-      transform: translateY(20px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-  @keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
-      transform: translateY(0px);
-    }
-    40% {
-      transform: translateY(-10px);
-    }
-    60% {
-      transform: translateY(-5px);
-    }
-    
-  }
-  @keyframes zoomIn {
-    from {
-      opacity: 0;
-      transform: scale(0.8);
-    }
-    to {
-      opacity: 1;
-      transform: scale(1);
     }
   }
