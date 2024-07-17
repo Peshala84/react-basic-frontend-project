@@ -3,6 +3,9 @@ body {
     margin: 0;
     padding: 0;
     animation: backgroundFade 10s infinite alternate;
+    background-image: url(../../assets/backgroundimage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1, h2, p {
@@ -59,6 +62,7 @@ h1, h2, p {
     max-width: 800px;
     line-height: 1.6;
     margin: 0 auto;
+
 }
 
 
@@ -74,9 +78,8 @@ h1, h2, p {
     flex: 1 1 300px;
     margin: 10px;
     padding: 20px;
-    
     border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 20px aqua;
     animation: fadeInUp 1s ease-in-out, hoverEffect 1s infinite alternate;
     transition: transform 0.3s, box-shadow 0.3s;
 }
@@ -89,13 +92,14 @@ h1, h2, p {
 }
 
 .home-content-left p {
-    font-size: 14px;
+    font-size: 20px;
     margin: 10px 0 0;
 }
 
 .home-content-left:hover {
     transform: scale(1.05);
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 20px aqua,
+                0 0 40px aqua;
 }
 
 /* Animations */
@@ -171,11 +175,6 @@ h1, h2, p {
     }
 }
 
-@media (max-width: 768px) {
-    .home-content-left {
-        flex: 1 1 100%;
-    }
-}
 @keyframes anime {
     0% {
       width: 10px;
@@ -200,5 +199,10 @@ h1, h2, p {
       height: 40px;
       background: #5a4545;
      
+    }
+}
+@media (max-width: 768px) {
+    .home-content-left {
+        flex: 1 1 100%;
     }
 }
