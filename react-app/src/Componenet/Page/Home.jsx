@@ -33,6 +33,9 @@ export const Home = () => {
       <div className='home-time'>
         
         <h2 style={{ textAlign: 'center', }}> Hello <br /> {getGreetingMessage()}</h2>
+        <div className='box'>
+          <h1>EduPath</h1>
+        </div>
       <div style={{ textAlign: 'center', }}>
       <h2>Today</h2>
       <h2>{dateTime.toLocaleDateString()}</h2>
