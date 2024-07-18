@@ -40,7 +40,11 @@
   }
   .about-link-inner:hover{
     background-color: rgb(168, 228, 228);
-    color: rgb(0, 0, 0);
+    box-shadow: 
+    0 0 20px aqua,
+    0 0 40px aqua,
+    0 0 60px aqua,
+    0 0 80px aqua;
   }
   .video-container {
     display: flex;

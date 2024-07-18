@@ -18,7 +18,7 @@ export const About = () => {
       </div>
 
       <div className='video-container'>
-        <video controls autoPlay className='about-video'>
+        <video controls autoPlay  className='about-video'>
           <source src="video_1.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
