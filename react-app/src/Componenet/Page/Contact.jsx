@@ -14,7 +14,7 @@ export const Contact = () => {
  
   useEffect(() => {
     if (submitted) {
-      const timeout = setTimeout(() => setSubmitted(false), 3000);
+      const timeout = setTimeout(() => setSubmitted(false), 5000);
       return () => clearTimeout(timeout);
     }
   }, [submitted]);
